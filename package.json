@@ -1,5 +1,5 @@
 {
-  "name": "rooter",
+  "name": "object-keychain",
   "version": "1.0.0",
   "description": "Simple utility to check an object keys",
   "main": "index.js",

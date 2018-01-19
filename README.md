@@ -1,14 +1,19 @@
-# ObjectKeychain
+# 🔗🔗 ObjectKeychain 🔗🔗
 
-**ObjectKeychain** is a really simple utility which will help a lot handling complex data structures.
+[![Build Status](https://travis-ci.org/micheleriva/ObjectKeychain.svg?branch=master)](https://travis-ci.org/micheleriva/ObjectKeychain)
 
-### Installation
+**ObjectKeychain** is a really simple and lightweight utility (29 bytes gziped) which will help a lot handling complex data structures. <br />
+I decided to write this little function because handling object-based data structures sometimes can be hard.
+
+With this utility, you can test if a complex object has a given key.
+
+## Installation
 I would recommend to install Rooter using `npm`
 ```bash
 $ npm install object-keychain
 ```
 
-### Usage
+## Usage
 **ES6 Full Example**
 ```javascript
 import OK from 'object-keychain'
@@ -50,7 +55,7 @@ if(OK(obj, ['contacts', 'home'])){
 }
 ```
 
-**Real life example using React.js***
+**Real life example using React.js**
 ```javascript
 import React from 'react'
 import OK from 'object-keychain'
@@ -75,7 +80,7 @@ class Foo extends React.component{
         return(
             OK(this.state, ['contacts', 'home'])
             ? <div>User email: {this.state.contacts.home}</div>
-            : <div> This user doesn't have an home email address. </div>
+            : <div> This user does not have an home email address. </div>
         )
     }
     
