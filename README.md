@@ -1,6 +1,8 @@
 # 🔗🔗 ObjectKeychain 🔗🔗
 
 [![Build Status](https://travis-ci.org/micheleriva/ObjectKeychain.svg?branch=master)](https://travis-ci.org/micheleriva/ObjectKeychain)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b315348beb4f681dba16/maintainability)](https://codeclimate.com/github/micheleriva/ObjectKeychain/maintainability)
+[![Known Vulnerabilities](https://snyk.io/test/github/micheleriva/objectkeychain/badge.svg?targetFile=package.json)](https://snyk.io/test/github/micheleriva/objectkeychain?targetFile=package.json)
 
 **ObjectKeychain** is a really simple and lightweight utility (29 bytes gziped) which will help a lot handling complex data structures. <br />
 I decided to write this little function because handling object-based data structures sometimes can be hard.
@@ -8,7 +10,7 @@ I decided to write this little function because handling object-based data struc
 With this utility, you can test if a complex object has a given key.
 
 ## Installation
-I would recommend to install Rooter using `npm`
+I would recommend to install ObjectKeychain using `npm`
 ```bash
 $ npm install object-keychain
 ```
