@@ -13,6 +13,7 @@
   ],
   "author": "Michele Riva <ciao@micheleriva.it>",
   "license": "MIT",
+  "repository": "https://github.com/micheleriva/ObjectKeychain",
   "devDependencies": {
     "jest": "^22.1.4"
   }
