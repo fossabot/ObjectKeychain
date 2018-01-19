@@ -1,0 +1,19 @@
+{
+  "name": "rooter",
+  "version": "1.0.0",
+  "description": "Simple utility to check an object keys",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "typescript",
+    "es6",
+    "objects"
+  ],
+  "author": "Michele Riva <ciao@micheleriva.it>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
