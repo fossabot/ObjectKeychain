@@ -24,8 +24,13 @@ I would recommend to install ObjectKeychain using `npm` or `yarn`
 ```bash
 $ npm install object-keychain
 ```
-```
+```bash
 $ yarn add object-keychain
+```
+
+1991 fan? JSDeliver to the rescue!
+```html
+<script src="https://cdn.jsdelivr.net/npm/object-keychain@1/index.min.js"></script>
 ```
 
 ## Use cases
