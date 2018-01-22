@@ -12,7 +12,74 @@ With this utility, you can test if a complex object has a given key.
 ## Installation
 I would recommend to install ObjectKeychain using `npm`
 ```bash
-$ npm install object-keychain
+$ npm install object-keychain --save
+```
+
+**Use cases**
+
+Let's pretend we are building an app with a noSql database. <br />
+When we create a new user, we'll store the following object: <br />
+```json
+{
+  "first_name": "John",
+  "last_name": "Doe",
+  "email": "foo@bar.com"
+}
+```
+After some time, the user will start to populate his account data, and we'll have the following object:
+```json
+{
+  "first_name": "John",
+  "last_name": "Doe",
+  "email": "foo@bar.com",
+  "contacts": {
+    "phone": {
+        "home": "0000000000",
+        "work": "1111111111",
+        "other": "2222222222"
+    }
+  }
+}
+```
+
+Displaying data:
+
+```javascript
+const data_email = userData.email;
+const data_first_name = userData.first_name;
+const data_phone_home = userData.contacts.phone.home;
+
+console.log(data_email); // => foo@bar.com
+console.log(data_first_name); // John
+console.log(data_phone_home); // 0000000000
+```
+
+But what if we have the following object?
+```json
+{
+  "first_name": "John",
+  "last_name": "Doe",
+  "email": "foo@bar.com",
+  "contacts": {
+    "email": {
+        "work": "work@bar.com"
+    }
+  }
+}
+```
+
+We'll receive the following error
+```javascript
+const data_phone_home = userData.contacts.phone.home;
+
+console.log(data_phone_home); // Unable to get property 'phone' of undefined
+```
+
+Now, **ObjectKeychain** is gonna help you.
+```javascript
+import OK from 'ObjectKeychain'
+
+const data_phone_home = OK(userData, ['contacts', 'phone', 'home']) // => Returns false
 ```
 
 ## Usage
