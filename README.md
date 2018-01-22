@@ -28,7 +28,7 @@ $ npm install object-keychain
 $ yarn add object-keychain
 ```
 
-**Use cases**
+## Use cases
 
 Let's pretend we are building an app with a noSql database. <br />
 When we create a new user, we'll store the following object: <br />
