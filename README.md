@@ -83,7 +83,13 @@ Now, **ObjectKeychain** is gonna help you.
 ```javascript
 import OK from 'ObjectKeychain'
 
-const data_phone_home = OK(userData, ['contacts', 'phone', 'home']) // => Returns false
+const data_phone_home = () => {
+    OK(userData, ['contacts', 'phone', 'home']) 
+    ? userData.contacts.phone.home
+    : 'No home phone'
+}
+
+console.log(data_phone_home); // No home phone
 ```
 
 ## Usage
