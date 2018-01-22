@@ -10,6 +10,15 @@ I decided to write this little function because handling object-based data struc
 
 With this utility, you can test if a complex object has a given key.
 
+## Index
+- [Live demo](#live-demo)
+- [Installation](#installation)
+- [Use Cases](#use-cases)
+- [Usage](#usage)
+
+## Live Demo
+[Live demo here!](https://codesandbox.io/s/zrx3o5x14x)
+
 ## Installation
 I would recommend to install ObjectKeychain using `npm` or `yarn`
 ```bash
