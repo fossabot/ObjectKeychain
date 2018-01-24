@@ -1,6 +1,6 @@
 # 🔗🔗 ObjectKeychain 🔗🔗
 
-[![Build Status](https://travis-ci.org/micheleriva/ObjectKeychain.svg?branch=master)](https://travis-ci.org/micheleriva/ObjectKeychain)
+[![Build Status](https://api.travis-ci.org/EpkCloud/ObjectKeychain.svg?branch=master)](https://travis-ci.org/EpkCloud/ObjectKeychain)
 [![Maintainability](https://api.codeclimate.com/v1/badges/b315348beb4f681dba16/maintainability)](https://codeclimate.com/github/micheleriva/ObjectKeychain/maintainability)
 [![Known Vulnerabilities](https://snyk.io/test/github/micheleriva/objectkeychain/badge.svg?targetFile=package.json)](https://snyk.io/test/github/micheleriva/objectkeychain?targetFile=package.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
