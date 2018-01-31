@@ -1,12 +1,13 @@
 # 🔗🔗 ObjectKeychain 🔗🔗
 
 [![Build Status](https://api.travis-ci.org/EpkCloud/ObjectKeychain.svg?branch=master)](https://travis-ci.org/EpkCloud/ObjectKeychain)
+[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/b315348beb4f681dba16/maintainability)](https://codeclimate.com/github/micheleriva/ObjectKeychain/maintainability)
 [![Known Vulnerabilities](https://snyk.io/test/github/micheleriva/objectkeychain/badge.svg?targetFile=package.json)](https://snyk.io/test/github/micheleriva/objectkeychain?targetFile=package.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Downloads](https://img.shields.io/npm/dt/object-keychain.svg)](https://img.shields.io/npm/dt/object-keychain.svg)
 
-**ObjectKeychain** is a really simple and lightweight utility (29 bytes gziped) which will help a lot handling complex data structures. <br />
+**ObjectKeychain** is a really simple and lightweight utility (~20 bytes gziped) which will help a lot handling complex data structures. <br />
 I decided to write this little function because handling object-based data structures sometimes can be hard.
 
 With this utility, you can test if a complex object has a given key.

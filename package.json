@@ -4,7 +4,7 @@
   "description": "Simple utility to check an object keys",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [
     "typescript",
