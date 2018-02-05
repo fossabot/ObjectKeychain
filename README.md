@@ -6,6 +6,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/micheleriva/objectkeychain/badge.svg?targetFile=package.json)](https://snyk.io/test/github/micheleriva/objectkeychain?targetFile=package.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Downloads](https://img.shields.io/npm/dt/object-keychain.svg)](https://img.shields.io/npm/dt/object-keychain.svg)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FEpkCloud%2FObjectKeychain.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FEpkCloud%2FObjectKeychain?ref=badge_shield)
 
 **ObjectKeychain** is a really simple and lightweight utility (~20 bytes gziped) which will help a lot handling complex data structures. <br />
 I decided to write this little function because handling object-based data structures sometimes can be hard.
@@ -182,3 +183,6 @@ class Foo extends React.component{
 }
 
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FEpkCloud%2FObjectKeychain.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FEpkCloud%2FObjectKeychain?ref=badge_large)
